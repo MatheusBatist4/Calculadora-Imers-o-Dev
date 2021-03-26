@@ -16,4 +16,6 @@ if (escolha == 1) {
 }else if (escolha == 4){
   var resultado = primeiroValor * segundoValor
   document.write("<h2>" + primeiroValor + " * " + segundoValor + " = " + resultado + "</h2>")
-}
+}else{
+        alert("Opção inválida")
+    }
